@@ -1,0 +1,9 @@
+*.pyc
+*~
+.#*
+.classpath
+.project
+.settings
+logs
+sqlite.db
+target

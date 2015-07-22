@@ -1,0 +1,40 @@
+[user]
+name = George Hamilton
+email = gmh04@netscape.net
+
+[color]
+diff = auto
+status = auto
+branch = auto
+interactive = auto
+
+[color "status"]
+added = green
+changed = yellow
+untracked = cyan
+
+[core]
+excludesfile = /home/ghamilt2/.gitignore
+editor = vi
+autocrlf = input
+
+[alias]
+st = status
+ci = commit
+co = checkout
+cm = commit
+mg = merge
+br = branch
+ns = log --name-status
+pull = pull --rebase
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%dCreset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+[diff]
+tool = meld
+
+[push]
+default = matching
+
+
+[format]
+pretty = "Commit:  %C(yellow)%H%nAuthor:  %C(green)%aN <%aE>%nDate:    (%C(red)%ar%Creset) %ai%nSubject: %s%n%n%b"

@@ -30,7 +30,7 @@ pull = pull --rebase
 lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%dCreset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 
 [diff]
-tool = meld
+#tool = meld
 
 [push]
 default = matching

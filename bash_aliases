@@ -1,4 +1,7 @@
+alias apg='sudo apachectl graceful'
 alias apr='sudo service httpd restart'
+alias clog='date=`date "+%Y-%m-%d"`; tail -f /var/log/datashare/cocoon.log.$date'
+alias datashare='sudo su - datashare'
 alias dlog='date=`date "+%Y-%m-%d"`; tail -f /var/log/datashare/dspace.log.$date'
 alias gitsmpull='git pull && git submodule update'
 alias h='history'
